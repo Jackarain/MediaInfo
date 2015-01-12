@@ -1,0 +1,1635 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ZenLib">
+      <UniqueIdentifier>{dc7af45d-1854-43fb-81ac-b02e3a56143e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZenLib\HTTP_Client">
+      <UniqueIdentifier>{318b7e1c-adc7-4bca-bfb5-bb4ff59a1f03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZenLib\Format">
+      <UniqueIdentifier>{86ceb467-68b9-473a-a8ce-5a90468cc197}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZenLib\Format\Http">
+      <UniqueIdentifier>{d249f522-05bc-4f3c-9624-ea74868145ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZenLib\Format\Html">
+      <UniqueIdentifier>{2b9e460b-0d48-40db-935e-8607a5708187}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zlib">
+      <UniqueIdentifier>{d63696d4-1c6c-441c-8868-a1cf4d216cc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Video">
+      <UniqueIdentifier>{cb39e106-7a80-455b-8993-b6e9a233de6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Text">
+      <UniqueIdentifier>{aac72030-8616-4b4e-aa84-1e6602524d84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tag">
+      <UniqueIdentifier>{6805801c-70a0-4f92-b353-0963148cdf82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reader">
+      <UniqueIdentifier>{1c7c3db3-d8f7-40c3-8145-9a346719e9cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Multiple">
+      <UniqueIdentifier>{880cd73e-bdb0-440c-99c1-bc23f761078a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image">
+      <UniqueIdentifier>{009e6df3-0eed-412b-b63e-82fd0740cfe8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Export">
+      <UniqueIdentifier>{3652ecb1-0e11-4200-b864-8967d3d8f756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Duplicate">
+      <UniqueIdentifier>{ba51d458-b250-41fe-8535-e1da65859033}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{a7e5bf38-1f9d-4d9b-a86a-6bd3ee7da63b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archive">
+      <UniqueIdentifier>{a43dbee7-9ab4-45e2-af64-1d6e8d5cf24e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty">
+      <UniqueIdentifier>{3608b59e-3c70-4422-ab86-7e6b2ff41e52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\aes-gladman">
+      <UniqueIdentifier>{bfe36488-de28-4b57-ba54-af37a3540128}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\base64">
+      <UniqueIdentifier>{613658ef-dfe1-4c14-bd25-94b68c9e2a51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\md5">
+      <UniqueIdentifier>{14af414f-dd4f-42c5-aa41-d00505bf5f84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\tinyxml2">
+      <UniqueIdentifier>{765fa97d-30d5-426f-bcea-3ea3b44287fe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ZenLib\InfoMap.cpp">
+      <Filter>ZenLib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZenLib\int128s.cpp">
+      <Filter>ZenLib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZenLib\int128u.cpp">
+      <Filter>ZenLib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZenLib\MemoryDebug.cpp">
+      <Filter>ZenLib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZenLib\OS_Utils.cpp">
+      <Filter>ZenLib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZenLib\PreComp.cpp">
+      <Filter>ZenLib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZenLib\Thread.cpp">
+      <Filter>ZenLib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZenLib\Translation.cpp">
+      <Filter>ZenLib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZenLib\Utils.cpp">
+      <Filter>ZenLib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZenLib\Ztring.cpp">
+      <Filter>ZenLib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZenLib\ZtringList.cpp">
+      <Filter>ZenLib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZenLib\ZtringListList.cpp">
+      <Filter>ZenLib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZenLib\ZtringListListF.cpp">
+      <Filter>ZenLib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZenLib\Conf.cpp">
+      <Filter>ZenLib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZenLib\CriticalSection.cpp">
+      <Filter>ZenLib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZenLib\Dir.cpp">
+      <Filter>ZenLib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZenLib\File.cpp">
+      <Filter>ZenLib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZenLib\FileName.cpp">
+      <Filter>ZenLib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZenLib\HTTP_Client.cpp">
+      <Filter>ZenLib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZenLib\HTTP_Client\HTTPClientAuth.c">
+      <Filter>ZenLib\HTTP_Client</Filter>
+    </ClCompile>
+    <ClCompile Include="ZenLib\HTTP_Client\HTTPClientString.c">
+      <Filter>ZenLib\HTTP_Client</Filter>
+    </ClCompile>
+    <ClCompile Include="ZenLib\HTTP_Client\HTTPClientWrapper.c">
+      <Filter>ZenLib\HTTP_Client</Filter>
+    </ClCompile>
+    <ClCompile Include="ZenLib\HTTP_Client\HTTPClient.c">
+      <Filter>ZenLib\HTTP_Client</Filter>
+    </ClCompile>
+    <ClCompile Include="ZenLib\Format\Http\Http_Handler.cpp">
+      <Filter>ZenLib\Format\Http</Filter>
+    </ClCompile>
+    <ClCompile Include="ZenLib\Format\Http\Http_Request.cpp">
+      <Filter>ZenLib\Format\Http</Filter>
+    </ClCompile>
+    <ClCompile Include="ZenLib\Format\Http\Http_Utils.cpp">
+      <Filter>ZenLib\Format\Http</Filter>
+    </ClCompile>
+    <ClCompile Include="ZenLib\Format\Http\Http_Cookies.cpp">
+      <Filter>ZenLib\Format\Http</Filter>
+    </ClCompile>
+    <ClCompile Include="ZenLib\Format\Html\Html_Request.cpp">
+      <Filter>ZenLib\Format\Html</Filter>
+    </ClCompile>
+    <ClCompile Include="ZenLib\Format\Html\Html_Handler.cpp">
+      <Filter>ZenLib\Format\Html</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\zutil.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\uncompr.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\trees.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inftrees.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inflate.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inffast.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\infback.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\gzwrite.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\gzread.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\gzlib.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\gzclose.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\deflate.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\crc32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\compress.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\adler32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\MediaInfo_Config_MediaInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\MediaInfo_Config_PerPackage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\MediaInfo_File.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\MediaInfo_Inform.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\MediaInfo_Internal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\MediaInfoList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\MediaInfoList_Internal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\PreComp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\TimeCode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\File__Analyze.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\File__Analyze_Buffer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\File__Analyze_Buffer_MinimizeSize.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\File__Analyze_Streams.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\File__Analyze_Streams_Finish.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\File__Base.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\File__Duplicate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\File__MultipleParsing.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\File_Dummy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\File_Other.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\File_Unknown.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\MediaInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\MediaInfo_Config.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\MediaInfo_Config_Automatic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Video\File_Hevc.cpp">
+      <Filter>Video</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Video\File_HuffYuv.cpp">
+      <Filter>Video</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Video\File_Lagarith.cpp">
+      <Filter>Video</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Video\File_Mpeg4v.cpp">
+      <Filter>Video</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Video\File_Mpegv.cpp">
+      <Filter>Video</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Video\File_ProRes.cpp">
+      <Filter>Video</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Video\File_Theora.cpp">
+      <Filter>Video</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Video\File_Vc1.cpp">
+      <Filter>Video</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Video\File_Vc3.cpp">
+      <Filter>Video</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Video\File_Vp8.cpp">
+      <Filter>Video</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Video\File_Y4m.cpp">
+      <Filter>Video</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Video\File_AfdBarData.cpp">
+      <Filter>Video</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Video\File_Aic.cpp">
+      <Filter>Video</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Video\File_Avc.cpp">
+      <Filter>Video</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Video\File_Avc_Duplicate.cpp">
+      <Filter>Video</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Video\File_AvsV.cpp">
+      <Filter>Video</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Video\File_Canopus.cpp">
+      <Filter>Video</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Video\File_Dirac.cpp">
+      <Filter>Video</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Video\File_Ffv1.cpp">
+      <Filter>Video</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Video\File_Flic.cpp">
+      <Filter>Video</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Video\File_Fraps.cpp">
+      <Filter>Video</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Video\File_H263.cpp">
+      <Filter>Video</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Text\File_OtherText.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Text\File_Pdf.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Text\File_Pgs.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Text\File_Scc.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Text\File_Scte20.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Text\File_Sdp.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Text\File_SubRip.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Text\File_Teletext.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Text\File_TimedText.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Text\File_Ttml.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Text\File_AribStdB24B37.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Text\File_Cdp.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Text\File_Cmml.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Text\File_DtvccTransport.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Text\File_DvbSubtitle.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Text\File_Eia608.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Text\File_Eia708.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Text\File_Kate.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Text\File_N19.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Tag\File_Lyrics3.cpp">
+      <Filter>Tag</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Tag\File_Lyrics3v2.cpp">
+      <Filter>Tag</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Tag\File_PropertyList.cpp">
+      <Filter>Tag</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Tag\File_VorbisCom.cpp">
+      <Filter>Tag</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Tag\File_Xmp.cpp">
+      <Filter>Tag</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Tag\File__Tags.cpp">
+      <Filter>Tag</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Tag\File_ApeTag.cpp">
+      <Filter>Tag</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Tag\File_Id3.cpp">
+      <Filter>Tag</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Tag\File_Id3v2.cpp">
+      <Filter>Tag</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Reader\Reader_libcurl.cpp">
+      <Filter>Reader</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Reader\Reader_libmms.cpp">
+      <Filter>Reader</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Reader\Reader_Directory.cpp">
+      <Filter>Reader</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Reader\Reader_File.cpp">
+      <Filter>Reader</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_Skm.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_Swf.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_Umf.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_Wm.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_Wm_Elements.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_Xdcam_Clip.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File__ReferenceFilesHelper.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File__ReferenceFilesHelper_Resource.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File__ReferenceFilesHelper_Sequence.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_Aaf.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_Ancillary.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_Bdmv.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_Cdxa.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_DashMpd.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_DcpAm.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_DcpCpl.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_DcpPkl.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_Dpg.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_DvDif.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_DvDif_Analysis.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_Dvdv.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_Dxw.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_Flv.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_Gxf.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_Gxf_TimeCode.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_HdsF4m.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_Hls.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_Ibi.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_Ibi_Creation.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_Ism.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_Ivf.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_Lxf.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_Mk.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_Mpeg_Descriptors.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_Mpeg_Psi.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_Mpeg4.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_Mpeg4_Descriptors.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_Mpeg4_Elements.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_Mpeg4_TimeCode.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_MpegPs.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_MpegTs.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_MpegTs_Duplicate.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_Mxf.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_Nut.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_Ogg.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_Ogg_SubElement.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_P2_Clip.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_Pmp.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_Ptx.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_Riff.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_Riff_Elements.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_Rm.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Multiple\File_SequenceInfo.cpp">
+      <Filter>Multiple</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Image\File_Pcx.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Image\File_Png.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Image\File_Psd.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Image\File_Rle.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Image\File_Tga.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Image\File_Tiff.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Image\File_ArriRaw.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Image\File_Bmp.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Image\File_Dds.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Image\File_Dpx.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Image\File_Exr.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Image\File_Gif.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Image\File_Ico.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Image\File_Jpeg.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Export\Export_PBCore.cpp">
+      <Filter>Export</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Export\Export_PBCore2.cpp">
+      <Filter>Export</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Export\Export_reVTMD.cpp">
+      <Filter>Export</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Export\Export_EbuCore.cpp">
+      <Filter>Export</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Export\Export_Mpeg7.cpp">
+      <Filter>Export</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Duplicate\File__Duplicate__Writer.cpp">
+      <Filter>Duplicate</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Duplicate\File__Duplicate_MpegTs.cpp">
+      <Filter>Duplicate</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Duplicate\File__Duplicate__Base.cpp">
+      <Filter>Duplicate</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Audio\File_Celt.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Audio\File_ChannelGrouping.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Audio\File_DolbyE.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Audio\File_Dts.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Audio\File_ExtendedModule.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Audio\File_Flac.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Audio\File_ImpulseTracker.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Audio\File_La.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Audio\File_Midi.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Audio\File_Module.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Audio\File_Mpc.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Audio\File_MpcSv8.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Audio\File_Mpega.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Audio\File_OpenMG.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Audio\File_Opus.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Audio\File_Pcm.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Audio\File_Pcm_M2ts.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Audio\File_Pcm_Vob.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Audio\File_Ps2Audio.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Audio\File_Rkau.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Audio\File_ScreamTracker3.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Audio\File_SmpteSt0302.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Audio\File_SmpteSt0331.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Audio\File_SmpteSt0337.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Audio\File_Speex.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Audio\File_Tak.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Audio\File_Tta.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Audio\File_TwinVQ.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Audio\File_Vorbis.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Audio\File_Wvpk.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Audio\File_Aac.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Audio\File_Aac_GeneralAudio.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Audio\File_Aac_GeneralAudio_Sbr.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Audio\File_Aac_GeneralAudio_Sbr_Ps.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Audio\File_Aac_Main.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Audio\File_Aac_Others.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Audio\File_Ac3.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Audio\File_Adpcm.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Audio\File_Als.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Audio\File_Amr.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Audio\File_Amv.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Audio\File_Ape.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Audio\File_Au.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Archive\File_Bzip2.cpp">
+      <Filter>Archive</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Archive\File_Elf.cpp">
+      <Filter>Archive</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Archive\File_Gzip.cpp">
+      <Filter>Archive</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Archive\File_Iso9660.cpp">
+      <Filter>Archive</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Archive\File_Mz.cpp">
+      <Filter>Archive</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Archive\File_Rar.cpp">
+      <Filter>Archive</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Archive\File_Tar.cpp">
+      <Filter>Archive</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Archive\File_Zip.cpp">
+      <Filter>Archive</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Archive\File_7z.cpp">
+      <Filter>Archive</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediainfo\Archive\File_Ace.cpp">
+      <Filter>Archive</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\aes-gladman\aes_modes.c">
+      <Filter>ThirdParty\aes-gladman</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\aes-gladman\aes_ni.c">
+      <Filter>ThirdParty\aes-gladman</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\aes-gladman\aescrypt.c">
+      <Filter>ThirdParty\aes-gladman</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\aes-gladman\aeskey.c">
+      <Filter>ThirdParty\aes-gladman</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\aes-gladman\aestab.c">
+      <Filter>ThirdParty\aes-gladman</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\aes-gladman\aesxam.c">
+      <Filter>ThirdParty\aes-gladman</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\aes-gladman\tablegen.c">
+      <Filter>ThirdParty\aes-gladman</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\md5\md5.c">
+      <Filter>ThirdParty\md5</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\tinyxml2\tinyxml2.cpp">
+      <Filter>ThirdParty\tinyxml2</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ZenLib\InfoMap.h">
+      <Filter>ZenLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZenLib\int128s.h">
+      <Filter>ZenLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZenLib\int128u.h">
+      <Filter>ZenLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZenLib\MemoryDebug.h">
+      <Filter>ZenLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZenLib\MemoryUtils.h">
+      <Filter>ZenLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZenLib\OS_Utils.h">
+      <Filter>ZenLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZenLib\PreComp.h">
+      <Filter>ZenLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZenLib\Thread.h">
+      <Filter>ZenLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZenLib\Trace.h">
+      <Filter>ZenLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZenLib\Translation.h">
+      <Filter>ZenLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZenLib\Utils.h">
+      <Filter>ZenLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZenLib\Ztring.h">
+      <Filter>ZenLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZenLib\ZtringList.h">
+      <Filter>ZenLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZenLib\ZtringListList.h">
+      <Filter>ZenLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZenLib\ZtringListListF.h">
+      <Filter>ZenLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZenLib\BitStream.h">
+      <Filter>ZenLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZenLib\BitStream_Fast.h">
+      <Filter>ZenLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZenLib\BitStream_LE.h">
+      <Filter>ZenLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZenLib\Conf.h">
+      <Filter>ZenLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZenLib\Conf_Internal.h">
+      <Filter>ZenLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZenLib\CriticalSection.h">
+      <Filter>ZenLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZenLib\Dir.h">
+      <Filter>ZenLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZenLib\File.h">
+      <Filter>ZenLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZenLib\FileName.h">
+      <Filter>ZenLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZenLib\HTTP_Client.h">
+      <Filter>ZenLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZenLib\HTTP_Client\HTTPClientAuth.h">
+      <Filter>ZenLib\HTTP_Client</Filter>
+    </ClInclude>
+    <ClInclude Include="ZenLib\HTTP_Client\HTTPClientCommon.h">
+      <Filter>ZenLib\HTTP_Client</Filter>
+    </ClInclude>
+    <ClInclude Include="ZenLib\HTTP_Client\HTTPClientString.h">
+      <Filter>ZenLib\HTTP_Client</Filter>
+    </ClInclude>
+    <ClInclude Include="ZenLib\HTTP_Client\HTTPClientWrapper.h">
+      <Filter>ZenLib\HTTP_Client</Filter>
+    </ClInclude>
+    <ClInclude Include="ZenLib\HTTP_Client\HTTPClient.h">
+      <Filter>ZenLib\HTTP_Client</Filter>
+    </ClInclude>
+    <ClInclude Include="ZenLib\Format\Http\Http_Handler.h">
+      <Filter>ZenLib\Format\Http</Filter>
+    </ClInclude>
+    <ClInclude Include="ZenLib\Format\Http\Http_Request.h">
+      <Filter>ZenLib\Format\Http</Filter>
+    </ClInclude>
+    <ClInclude Include="ZenLib\Format\Http\Http_Utils.h">
+      <Filter>ZenLib\Format\Http</Filter>
+    </ClInclude>
+    <ClInclude Include="ZenLib\Format\Http\Http_Cookies.h">
+      <Filter>ZenLib\Format\Http</Filter>
+    </ClInclude>
+    <ClInclude Include="ZenLib\Format\Html\Html_Handler.h">
+      <Filter>ZenLib\Format\Html</Filter>
+    </ClInclude>
+    <ClInclude Include="ZenLib\Format\Html\Html_Request.h">
+      <Filter>ZenLib\Format\Html</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\gzguts.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\deflate.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\crc32.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zutil.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zlib.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zconf.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\trees.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inftrees.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inflate.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inffixed.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inffast.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\MediaInfo_Config_MediaInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\MediaInfo_Config_PerPackage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\MediaInfo_Const.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\MediaInfo_Events.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\MediaInfo_Events_Internal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\MediaInfo_Internal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\MediaInfo_Internal_Const.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\MediaInfoList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\MediaInfoList_Internal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\PreComp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Setup.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\TimeCode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\File__Analyse_Automatic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\File__Analyze.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\File__Analyze_MinimizeSize.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\File__Base.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\File__Duplicate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\File__MultipleParsing.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\File_Dummy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\File_Other.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\File_Unknown.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\MediaInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\MediaInfo_Config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Video\File_Hevc.h">
+      <Filter>Video</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Video\File_HuffYuv.h">
+      <Filter>Video</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Video\File_Lagarith.h">
+      <Filter>Video</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Video\File_Mpeg4v.h">
+      <Filter>Video</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Video\File_Mpegv.h">
+      <Filter>Video</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Video\File_ProRes.h">
+      <Filter>Video</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Video\File_Theora.h">
+      <Filter>Video</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Video\File_Vc1.h">
+      <Filter>Video</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Video\File_Vc3.h">
+      <Filter>Video</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Video\File_Vp8.h">
+      <Filter>Video</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Video\File_Y4m.h">
+      <Filter>Video</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Video\File_AfdBarData.h">
+      <Filter>Video</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Video\File_Aic.h">
+      <Filter>Video</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Video\File_Avc.h">
+      <Filter>Video</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Video\File_AvsV.h">
+      <Filter>Video</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Video\File_Canopus.h">
+      <Filter>Video</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Video\File_Dirac.h">
+      <Filter>Video</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Video\File_Ffv1.h">
+      <Filter>Video</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Video\File_Flic.h">
+      <Filter>Video</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Video\File_Fraps.h">
+      <Filter>Video</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Video\File_H263.h">
+      <Filter>Video</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Text\File_N19.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Text\File_OtherText.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Text\File_Pdf.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Text\File_Pgs.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Text\File_Scc.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Text\File_Scte20.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Text\File_Sdp.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Text\File_SubRip.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Text\File_Teletext.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Text\File_TimedText.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Text\File_Ttml.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Text\File_AribStdB24B37.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Text\File_Cdp.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Text\File_Cmml.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Text\File_DtvccTransport.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Text\File_DvbSubtitle.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Text\File_Eia608.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Text\File_Eia708.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Text\File_Kate.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Tag\File_Id3v2.h">
+      <Filter>Tag</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Tag\File_Lyrics3.h">
+      <Filter>Tag</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Tag\File_Lyrics3v2.h">
+      <Filter>Tag</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Tag\File_PropertyList.h">
+      <Filter>Tag</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Tag\File_VorbisCom.h">
+      <Filter>Tag</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Tag\File_Xmp.h">
+      <Filter>Tag</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Tag\File__Tags.h">
+      <Filter>Tag</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Tag\File_ApeTag.h">
+      <Filter>Tag</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Tag\File_Id3.h">
+      <Filter>Tag</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Reader\Reader_File.h">
+      <Filter>Reader</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Reader\Reader_libcurl.h">
+      <Filter>Reader</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Reader\Reader_libcurl_Include.h">
+      <Filter>Reader</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Reader\Reader_libmms.h">
+      <Filter>Reader</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Reader\Reader__Base.h">
+      <Filter>Reader</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Reader\Reader_Directory.h">
+      <Filter>Reader</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File_SequenceInfo.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File_Skm.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File_Swf.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File_Umf.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File_Wm.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File_Xdcam_Clip.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File__ReferenceFilesHelper.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File__ReferenceFilesHelper_Common.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File__ReferenceFilesHelper_Resource.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File__ReferenceFilesHelper_Sequence.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File__ReferenceFilesHelper_Sequence_Common.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File_Aaf.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File_Ancillary.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File_Bdmv.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File_Cdxa.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File_DashMpd.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File_DcpAm.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File_DcpCpl.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File_DcpPkl.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File_Dpg.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File_DvDif.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File_Dvdv.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File_Dxw.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File_Flv.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File_Gxf.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File_Gxf_TimeCode.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File_HdsF4m.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File_Hls.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File_Ibi.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File_Ibi_Creation.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File_Ism.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File_Ivf.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File_Lxf.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File_Mk.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File_Mpeg_Descriptors.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File_Mpeg_Psi.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File_Mpeg4.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File_Mpeg4_Descriptors.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File_Mpeg4_TimeCode.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File_MpegPs.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File_MpegTs.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File_Mxf.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File_Nut.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File_Ogg.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File_Ogg_SubElement.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File_P2_Clip.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File_Pmp.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File_Ptx.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File_Riff.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Multiple\File_Rm.h">
+      <Filter>Multiple</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Image\File_Jpeg.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Image\File_Pcx.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Image\File_Png.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Image\File_Psd.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Image\File_Rle.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Image\File_Tga.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Image\File_Tiff.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Image\File_ArriRaw.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Image\File_Bmp.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Image\File_Dds.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Image\File_Dpx.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Image\File_Exr.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Image\File_Gif.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Image\File_Ico.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Export\Export_PBCore.h">
+      <Filter>Export</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Export\Export_PBCore2.h">
+      <Filter>Export</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Export\Export_reVTMD.h">
+      <Filter>Export</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Export\Export_EbuCore.h">
+      <Filter>Export</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Export\Export_Mpeg7.h">
+      <Filter>Export</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Duplicate\File__Duplicate__Writer.h">
+      <Filter>Duplicate</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Duplicate\File__Duplicate_MpegTs.h">
+      <Filter>Duplicate</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Duplicate\File__Duplicate__Base.h">
+      <Filter>Duplicate</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Audio\File_Au.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Audio\File_Celt.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Audio\File_ChannelGrouping.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Audio\File_DolbyE.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Audio\File_Dts.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Audio\File_ExtendedModule.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Audio\File_Flac.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Audio\File_ImpulseTracker.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Audio\File_La.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Audio\File_Midi.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Audio\File_Module.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Audio\File_Mpc.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Audio\File_MpcSv8.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Audio\File_Mpega.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Audio\File_OpenMG.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Audio\File_Opus.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Audio\File_Pcm.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Audio\File_Pcm_M2ts.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Audio\File_Pcm_Vob.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Audio\File_Ps2Audio.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Audio\File_Rkau.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Audio\File_ScreamTracker3.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Audio\File_SmpteSt0302.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Audio\File_SmpteSt0331.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Audio\File_SmpteSt0337.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Audio\File_Speex.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Audio\File_Tak.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Audio\File_Tta.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Audio\File_TwinVQ.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Audio\File_Vorbis.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Audio\File_Wvpk.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Audio\File_Aac.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Audio\File_Aac_GeneralAudio.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Audio\File_Aac_GeneralAudio_Sbr.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Audio\File_Aac_GeneralAudio_Sbr_Ps.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Audio\File_Ac3.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Audio\File_Adpcm.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Audio\File_Als.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Audio\File_Amr.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Audio\File_Amv.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Audio\File_Ape.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Archive\File_Bzip2.h">
+      <Filter>Archive</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Archive\File_Elf.h">
+      <Filter>Archive</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Archive\File_Gzip.h">
+      <Filter>Archive</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Archive\File_Iso9660.h">
+      <Filter>Archive</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Archive\File_Mz.h">
+      <Filter>Archive</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Archive\File_Rar.h">
+      <Filter>Archive</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Archive\File_Tar.h">
+      <Filter>Archive</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Archive\File_Zip.h">
+      <Filter>Archive</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Archive\File_7z.h">
+      <Filter>Archive</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediainfo\Archive\File_Ace.h">
+      <Filter>Archive</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\aes-gladman\aes.h">
+      <Filter>ThirdParty\aes-gladman</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\aes-gladman\aes_ni.h">
+      <Filter>ThirdParty\aes-gladman</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\aes-gladman\aes_via_ace.h">
+      <Filter>ThirdParty\aes-gladman</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\aes-gladman\aescpp.h">
+      <Filter>ThirdParty\aes-gladman</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\aes-gladman\aesopt.h">
+      <Filter>ThirdParty\aes-gladman</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\aes-gladman\aestab.h">
+      <Filter>ThirdParty\aes-gladman</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\aes-gladman\brg_endian.h">
+      <Filter>ThirdParty\aes-gladman</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\aes-gladman\brg_types.h">
+      <Filter>ThirdParty\aes-gladman</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\base64\base64.h">
+      <Filter>ThirdParty\base64</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\md5\md5.h">
+      <Filter>ThirdParty\md5</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\tinyxml2\tinyxml2.h">
+      <Filter>ThirdParty\tinyxml2</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
