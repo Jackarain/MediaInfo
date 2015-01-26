@@ -800,6 +800,7 @@ Ztring& Ztring::From_Number (const int8s I, int8u Radix)
         delete[] C1; //C1=NULL;
     #else
         toStringStream Stream;
+		Stream.imbue(std::locale("C"));
         #ifdef UNICODE
             Stream << setbase(Radix) << I;
         #else //UNICODE
@@ -841,6 +842,7 @@ Ztring& Ztring::From_Number (const int8u I, int8u Radix)
         else
         {
             toStringStream Stream;
+            Stream.imbue(std::locale("C"));
             #ifdef UNICODE
                 Stream << setbase(Radix) << I;
             #else //UNICODE
@@ -871,6 +873,7 @@ Ztring& Ztring::From_Number (const int16s I, int8u Radix)
         delete[] C1; //C1=NULL;
     #else
         toStringStream Stream;
+        Stream.imbue(std::locale("C"));
         Stream << setbase(Radix) << I;
         assign(Stream.str());
     #endif
@@ -908,6 +911,7 @@ Ztring& Ztring::From_Number (const int16u I, int8u Radix)
         else
         {
             toStringStream Stream;
+            Stream.imbue(std::locale("C"));
             Stream << setbase(Radix) << I;
             assign(Stream.str());
         }
@@ -934,6 +938,7 @@ Ztring& Ztring::From_Number (const int32s I, int8u Radix)
         delete[] C1; //C1=NULL;
     #else
         toStringStream Stream;
+        Stream.imbue(std::locale("C"));
         Stream << setbase(Radix) << I;
         assign(Stream.str());
     #endif
@@ -971,6 +976,7 @@ Ztring& Ztring::From_Number (const int32u I, int8u Radix)
         else
         {
             toStringStream Stream;
+            Stream.imbue(std::locale("C"));
             Stream << setbase(Radix) << I;
             assign(Stream.str());
         }
@@ -997,6 +1003,7 @@ Ztring& Ztring::From_Number (const int64s I, int8u Radix)
         delete[] C1; //C1=NULL;
     #else
         toStringStream Stream;
+        Stream.imbue(std::locale("C"));
         Stream << setbase(Radix) << I;
         assign(Stream.str());
     #endif
@@ -1034,6 +1041,7 @@ Ztring& Ztring::From_Number (const int64u I, int8u Radix)
         else
         {
             toStringStream Stream;
+            Stream.imbue(std::locale("C"));
             Stream << setbase(Radix) << I;
             assign(Stream.str());
         }
@@ -1057,6 +1065,7 @@ Ztring& Ztring::From_Number (const float32 F, int8u Precision, ztring_t Options)
         assign(C1);
     #else
         toStringStream Stream;
+        Stream.imbue(std::locale("C"));
         Stream << setprecision(Precision) << fixed << F;
         assign(Stream.str());
         #if defined(__BORLANDC__)
@@ -1083,6 +1092,7 @@ Ztring& Ztring::From_Number (const float64 F, int8u Precision, ztring_t Options)
         assign(C1);
     #else
         toStringStream Stream;
+        Stream.imbue(std::locale("C"));
         Stream << setprecision(Precision) << fixed << F;
         assign(Stream.str());
         #if defined(__BORLANDC__)
@@ -1109,6 +1119,7 @@ Ztring& Ztring::From_Number (const float80 F, int8u Precision, ztring_t Options)
         assign(C1);
     #else
         toStringStream Stream;
+        Stream.imbue(std::locale("C"));
         Stream << setprecision(Precision) << fixed << F;
         assign(Stream.str());
         #if defined(__BORLANDC__)
@@ -1136,6 +1147,7 @@ Ztring& Ztring::From_Number (const size_t I, int8u Radix)
         assign(C1);
     #else
         toStringStream Stream;
+        Stream.imbue(std::locale("C"));
         Stream << setbase(Radix) << I;
         assign(Stream.str());
         #if defined(__BORLANDC__)
@@ -1155,6 +1167,7 @@ Ztring& Ztring::From_BCD     (const int8u I)
         append(1, __T('0')+I%0x10);
     #else
         toStringStream Stream;
+        Stream.imbue(std::locale("C"));
         Stream << I/0x10;
         Stream << I%0x10;
         assign(Stream.str());
